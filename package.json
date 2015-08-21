@@ -1,0 +1,20 @@
+{
+  "name": "s3-proxy",
+  "version": "0.0.1",
+  "description": "A proxy server allowing password access to otherwise private S3 buckets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "aws",
+    "s3"
+  ],
+  "author": "Chris Amico",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1.46",
+    "express": "^4.13.3"
+  }
+}
